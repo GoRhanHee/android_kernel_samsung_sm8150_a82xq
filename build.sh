@@ -8,6 +8,9 @@ git clone https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_a
 git clone https://github.com/proprietary-stuff/llvm-arm-toolchain-ship-10.0 \
  toolchain/llvm-arm-toolchain-ship/10.0
 
+# Import KernelSU-Next legacy branch
+curl -LSs "https://raw.githubusercontent.com/KernelSU-Next/KernelSU-Next/legacy/kernel/setup.sh" | bash -s legacy
+
 # Setting 
 export ANDROID_BUILD_TOP=$(pwd)
 export KSU=$1
