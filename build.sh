@@ -2,7 +2,7 @@
 
 # Import Cross Compiler
 git clone https://github.com/LineageOS/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9 \
- toolchain/gcc/linux-x86/aarch64/aarch64-linux-android-4.9
+ toolchain/gcc-cfp/gcc-cfp-single/aarch64-linux-android-4.9
 
 # Import LLVM toolchain
 git clone https://github.com/proprietary-stuff/llvm-arm-toolchain-ship-10.0 \
